@@ -9,7 +9,8 @@ set $up k
 set $right l
 
 set $term foot sh ~/dotfiles/scripts/zellij_main.sh
-set $sessionizer foot  sh ~/dotfiles/scripts/zellij_sessionizer.sh
+#set $sessionizer foot  sh ~/dotfiles/scripts/zellij_sessionizer.sh
+set $sessionizer ~/dotfiles/scripts/zellij_sessionizer.sh
 set $obsidian obsidian --ozone-platform=wayland --enable-features=UseOzonePlatform,WaylandWindowDecorations
 #set $shortcuts wlr-which-key
 #set $warp ~/dotfiles/scripts/start_warp.sh
