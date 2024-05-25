@@ -3,7 +3,7 @@
 scan_paths=$(fd . ~/code-repos/current ~/code-repos/archive --min-depth 1 --max-depth 1 --type d)
 
 # absolute path only
-single_paths=$(printf "$(realpath ~/dotfiles)\n$(realpath ~/.config/nvim)")
+single_paths=$(printf "$(realpath ~/dotfiles)\n$(realpath ~/.config/nvim)\n$(realpath ~/documents)")
 
 # Open wofi
 selected_path=$(printf "$scan_paths\n$single_paths" | wofi --dmenu -p "PROJECTS")

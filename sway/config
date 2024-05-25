@@ -35,7 +35,7 @@ gaps inner 5
 gaps top 0
 gaps bottom 0
 
-seat seat0 xcursor_theme Bibata-Modern-Ice16
+seat seat0 xcursor_theme Bibata-Modern-Ice 16
 
 #swayfx only
 corner_radius 5
@@ -103,7 +103,6 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 
-bindsym Ctrl+Shift+Print exec swaymsg -t get_tree | jq -r '.. | (.nodes? // empty)[] | select(.focused) | "\(.rect.x),\(.rect.y) \(.rect.width)x\(.rect.height)"' | grim -g - - | wl-copy
 #
 # Workspaces:
 #

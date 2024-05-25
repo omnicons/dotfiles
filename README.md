@@ -9,7 +9,7 @@ todo
 ## Links
 Wallpaper link: [Here](https://unsplash.com/photos/view-of-earth-and-satellite-yZygONrUBe8)
 
-Dependencies:
+Environment: 
 ```
 Swayfx
 Foot
@@ -17,8 +17,12 @@ Waybar
 Wofi
 Zellij
 ```
+
+Dependencies:
 ```
 inotifytools
 jq
 bibata-cursor-theme-bin
 ```
+
+Large inspiration for the sessionizer came from Prime [here](https://github.com/ThePrimeagen/.dotfiles/blob/master/bin/.local/scripts/tmux-sessionizer)
