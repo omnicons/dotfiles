@@ -1,0 +1,14 @@
+prompt=
+width=500
+height=211
+
+allow_images=false
+insensitive=true
+
+location=top
+xoffset=-8
+yoffset=30
+
+no_actions=true
+key_up=Ctrl-p
+key_down=Ctrl-n
